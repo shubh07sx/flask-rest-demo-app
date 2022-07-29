@@ -9,23 +9,6 @@ from werkzeug.utils import secure_filename
 import pandas as pd
 
 
-posts = [
-
-	{
-		'author': 'Cory Schafer',
-		'title': 'Blog Post 1',
-		'content': 'First post content',
-		'date_posted': '23 July 2022'
-
-	},
-	{
-		'author': 'Jane Doe',
-		'title': 'Blog Post 2',
-		'content': 'Second post content',
-		'date_posted': '22 July 2022'
-
-	}
-]
 
 @app.route("/")
 def home():
